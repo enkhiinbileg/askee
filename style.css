@@ -1,0 +1,468 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: #282d2d;
+}
+.container{
+    height: 136px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 740px;
+}
+.container .menu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.container .menu .bot{
+    width: 46px;
+    height: 46px;
+    background: linear-gradient(135deg, #73fac8, #00bee1);
+    border-radius: 100%;
+}
+.container .menu p{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+
+}
+.container .menu1{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.container .menu1 p{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(155, 155, 155);
+    position: relative;
+    width: max-content;
+    
+}
+.container .menu1 p::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right,#73fac8, #00bee1);
+    bottom: -4px;
+    left: 0;
+    width: 0%;
+    transition: 100ms;
+  }
+  .container .menu1 p:hover::after{
+    width: 100%;
+  } 
+.container .menu1 p:hover{
+    color: white;
+    cursor: pointer;
+
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+
+}
+.container1 .gap h1{
+    font-size: 60px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container1 .gap1 p{
+    font-size: 26px;
+    font-family: sans-serif;
+    color:rgb(155, 155, 155) ;
+    display: flex;
+    text-align: center;
+    margin-top: 65px;
+
+}
+.container1 .gap2 button{
+    font-size: 22px;
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(34, 74, 75);
+    height: 65px;
+    width: 306px;
+    border: 3px solid;
+    border-radius: 30px;
+    border-color: #00bee1;
+    margin-top: 70px;
+
+}
+.container1 .gap2 button:hover{
+    background-color: rgb(42, 93, 94);
+}
+.container1 .gap4{
+    height: 45px;
+    width: 0.5px;
+    background-color: rgb(126, 125, 125);
+    margin: 15px;
+}
+.container1 .gap3{
+    display: flex;
+    gap: 7px;
+    
+}
+.container1 .gap3 .shi{
+    color:rgb(155, 155, 155);
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.container1 .gap3 .shi1{
+    color:white;
+    font-size: 17px;
+    font-family: sans-serif;
+    position: relative;
+    width: max-content;
+}
+.container1 .gap3 .shi1::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right,#73fac8, #00bee1);
+    bottom: 0;
+    left: 0%;
+
+}
+.container1 .gap3 .shi1:hover{
+    cursor: pointer;
+}
+.container1 .gap3 .shi1:hover::after{
+    transition: 100ms;
+    transform: translateY(2px);
+    cursor: pointer;
+}
+.container2 .zurag img{
+    width: 800px;
+    transform: rotate(-45deg);
+    margin-left: 0%;
+    position: relative;
+    z-index: 98;
+    filter: drop-shadow(20px 20px 25px black);
+}
+.container2 .zurag2 img{
+    width: 800px;
+    transform: rotate(-135deg);
+    filter: drop-shadow(20px 20px 25px black);
+}
+.container2 .zurag1 img{
+    width: 600px;
+    transform: translateX(1000px);
+    filter: drop-shadow(20px 20px 25px black);
+}
+.container2 .zurag3{
+    position: relative;
+    width: 80%;
+    height: 2200px;
+    background-color: #282d2d;
+    border-radius: 20px;
+    z-index: 99;
+    top: 0%;
+    margin-left: 150px;
+    margin-top: -2540px;
+    filter: drop-shadow(20px 20px 25px black);
+}
+.container2 .zurag3 .asisst .fk{
+    position: absolute;
+    width: 100%;
+    border-radius: 20px;
+
+}
+.container2 .zurag3 .asisst1 .fk1{
+    position: absolute;
+    width: 100%;
+    top: 500px;
+
+}
+.container2 .zurag3 .asisst2 .fk2{
+    position: relative;
+    width: 100%;
+    top: 1300px;
+
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 160px;
+}
+.container3 .menus{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container3 .menus h1{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+
+}
+.container3 .menus p{
+    font-family: sans-serif;
+    color:rgb(155, 155, 155) ;
+}
+.container3 .menus1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container3 .menus1 h1{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+
+}
+.container3 .menus1 p{
+    font-family: sans-serif;
+    color:rgb(155, 155, 155) ;
+}
+.container3 .menus2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container3 .menus2 h1{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+
+}
+.container3 .menus2 p{
+    font-family: sans-serif;
+    color:rgb(155, 155, 155) ;
+}
+.container4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 100px;
+    
+}
+.container4 .heseg button{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(93, 251, 180);
+    background-color:rgb(17, 88, 68) ;
+    height: 40px;
+    width: 93px;
+    border-radius: 30px;
+    border: none;
+}
+.container4 .heseg1 h1{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 10px;
+}
+.container4 .heseg2 p{
+    font-size: 22px;
+    font-family: sans-serif;
+    color: rgb(155, 155, 155) ;
+    margin-top: 50px;
+}
+.container5{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+}
+.container5 img{
+    width: 83%;
+    margin-right: 45px;
+    margin-top: 70px;
+
+}
+.container6{
+    margin-right: -50px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+.container6 .garchih{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 280px;
+
+}
+.container6 .garchih .gar button{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(93, 251, 180);
+    background-color:rgb(17, 88, 68) ;
+    height: 40px;
+    width: 103px;
+    border-radius: 30px;
+    border: none;
+}
+.container6 .garchih .gar1 h1{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 10px;
+}
+.container6 .garchih .gar2 p{
+    font-size: 22px;
+    font-family: sans-serif;
+    color: rgb(155, 155, 155) ;
+    margin-top: 50px;
+}
+.container6 .garchih1 img{
+    width:670px ;
+
+}
+.container7 .tag img{
+    width:670px ;
+
+}
+.container7{
+    margin-top: 100px;
+    margin-left: -50px;
+    display: flex;
+    justify-content: center;
+    gap: 70px
+   
+    
+}
+.container7 .tag1{
+    margin-top: 200px;
+}
+.container7 .tag1 .tags button{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(93, 251, 180);
+    background-color:rgb(17, 88, 68) ;
+    height: 40px;
+    width: 103px;
+    border-radius: 30px;
+    border: none;
+}
+.container7 .tag1 .tags1 h1{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 10px;
+}
+.container7 .tag1 .tags2 p{
+    font-size: 22px;
+    font-family: sans-serif;
+    color: rgb(155, 155, 155) ;
+    margin-top: 50px;
+}
+.container8{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.container8 .heseg .part h1{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 10px;
+}
+.container8 .heseg .part1 p{
+    font-size: 22px;
+    font-family: sans-serif;
+    color: rgb(155, 155, 155) ;
+    margin-top: 50px;
+}
+.container8 .heseg1 img{
+    width: 82%;
+    margin-top: 70px;
+}
+.container9{
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    margin-top: 200px;
+}
+.container9 .end .name h1{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 50px;
+}
+.container9 .end .name1 p{
+    font-size: 22px;
+    font-family: sans-serif;
+    color: rgb(155, 155, 155) ;
+    margin-top: 50px;
+}
+.container9 .end1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container9 .end{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: -60px;
+}
+.container9 .end1 button{
+    width: 492px;
+    height: 99px;
+    border-radius: 10px;
+    background-color: #363b3b;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 25px;
+}
+.container9 .end1 button:hover{
+    background-color:#464b4b ;
+}
+.container9 .end1 button .ar{
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    border: 3px solid #00bee1;
+    background-color: rgb(32, 67, 68);
+    display: flex;
+    color: white;font-size: 22px;
+    align-items: center;
+    justify-content: center;
+
+}
+.container9 .end1 button p{
+    font-size: 22px;
+    font-family: sans-serif;
+    color: white ;
+}
+.container10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 110px;
+    border-top: 1px solid black;
+    gap: 500px;
+}
+.container10 .cont{
+    font-size: 22px;
+    font-family: sans-serif;
+    color: white ;
+}
+.container10 .cont1{
+    display: flex;
+    gap: 20px;
+
+}
+.container10 .cont1 p{
+    font-size: 22px;
+    font-family: sans-serif;
+    color: rgb(155, 155, 155) ;
+}
+
